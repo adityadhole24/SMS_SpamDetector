@@ -6,5 +6,5 @@ We used a public dataset available on the UCI ML repository consisting of 5572 m
 Used RegEx to identify patterns such as email address, phone numbers, currency symbols, URL's in the SMS text and normalize them. Removed stop-words, performed Stemming using the
 NLTK library, and used sklearn's TfidfVectorizer to generate n-grams.
 
-Achieved a F1-score of 92% using SVM. Due to the class-imbalance in the dataset, recall for the 'Spam' class (87%) is much lower than than that for 'non-spam'(99.9%)
+Achieved a F1-score of 92% using SVM. Due to the class-imbalance in the dataset, recall for the 'Spam' class (87%) is much lower than than that for 'non-spam' (99.9%)
 
